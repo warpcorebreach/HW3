@@ -74,9 +74,14 @@
     <Compile Include="Assets\Scripts\AudioTrigger.cs" />
     <Compile Include="Assets\Scripts\ChairPush.cs" />
     <Compile Include="Assets\Scripts\ConversationSwitch.cs" />
+    <Compile Include="Assets\Scripts\CookMoveScript.cs" />
+    <Compile Include="Assets\Scripts\CookRunScript.cs" />
     <Compile Include="Assets\Scripts\CustomerScript.cs" />
     <Compile Include="Assets\Scripts\DishScript.cs" />
     <Compile Include="Assets\Scripts\HostStandScript.cs" />
+    <Compile Include="Assets\Scripts\KitchenCollision.cs" />
+    <Compile Include="Assets\Scripts\MicrowaveScript.cs" />
+    <Compile Include="Assets\Scripts\PlayOnDistanceScript.cs" />
     <Compile Include="Assets\Scripts\RandomConvo.cs" />
     <Compile Include="Assets\Scripts\RestroomScript.cs" />
     <Compile Include="Assets\Scripts\TableCollision.cs" />
@@ -87,5 +92,5 @@
     <Compile Include="Assets\hw3_includes\Scripts\First-Person Controller\MouseLook.cs" />
     <Compile Include="Assets\hw3_includes\Scripts\First-Person Controller\PlatformInputController.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
